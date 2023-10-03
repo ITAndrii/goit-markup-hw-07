@@ -1,0 +1,83 @@
+@media screen and (max-width: 767px) {
+  .skill-title-item {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .skill-container-icon {
+    display: none;
+  }
+
+  .skill-text {
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+
+  .hero {
+    max-width: 768px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    margin-bottom: 36px;
+    max-width: 496px;
+    height: 120px;
+  }
+
+  .skill-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .skill-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .hero {
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-bottom: 48px;
+  }
+
+  .section-skill {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .skill-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .skill-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+
+  .skill-title-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+  }
+
+  .job-description {
+    display: block;
+    padding-bottom: 120px;
+  }
+}
